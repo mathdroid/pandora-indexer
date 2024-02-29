@@ -33,7 +33,7 @@ ponder.on("Pandora:Approval", async ({ event, context }) => {
 });
 
 ponder.on("Pandora:ApprovalForAll", async ({ event, context }) => {
-  // console.log(event.args);
+  console.log(event.args);
 });
 
 ponder.on("Pandora:ERC20Transfer", async ({ event, context }) => {
